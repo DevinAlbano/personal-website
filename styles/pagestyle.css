@@ -1,4 +1,37 @@
+/* Global Styles                              */
+/* ------------------------------------------ */
 html {
-    margin: 0;   
+    margin: 0;
+    font-size: 1.8vw;
+}
+
+/* Navigation                                 */
+/* ------------------------------------------ */
+
+.navigation {
+    background-color: aquamarine;
+}
+
+.banner {
+    background-color: pink;
+}
+
+/* Main Content                               */
+/* ------------------------------------------ */
+
+.maincontent {
+    background-color: green;
+}
+
+section {
+    border: 1px solid white;
+    background-color: black;
+}
+
+/* Footer Styles                              */
+/* ------------------------------------------ */
+
+.footer {
+    background-color: purple;
 }
 

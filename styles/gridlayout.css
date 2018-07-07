@@ -1,3 +1,10 @@
 body {
     display: grid;
+    grid-template-columns: 1fr;
+}
+
+.maincontent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
 }
