@@ -37,7 +37,15 @@
 
     .menu ul {
         display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        flex: 1 0 auto; /* streches li to edge of element */
+        text-align: center;
     }
 }
+
 
 
