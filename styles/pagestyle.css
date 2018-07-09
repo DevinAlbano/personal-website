@@ -1,3 +1,14 @@
+/*---------------------------------------------*/
+/* Palette                           */
+/*---------------------------------------------*/
+
+.color1 { background-color: #d5dfe5;}
+.color2 { background-color: #2d4654;}
+.color3 { background-color: #73628a;}
+.color4 { background-color: #ffcad4;}
+.color5 { background-color: #b6d094;}
+
+
 /* Global Styles                              */
 /* ------------------------------------------ */
 html {
@@ -10,25 +21,25 @@ html {
 
 .banner {
     height: 150px;
-    background-color: pink;
+    background-color: #ffcad4;
 }
 
 /* Main Content                               */
 /* ------------------------------------------ */
 
 .maincontent {
-    background-color: green;
+    background-color: #73628a;
 }
 
 section {
     border: 1px solid white;
-    background-color: black;
+    background-color: #d5dfe5;
 }
 
 /* Footer Styles                              */
 /* ------------------------------------------ */
 
 .footer {
-    background-color: purple;
+    background-color: #2d4654;
 }
 

@@ -1,5 +1,5 @@
 .navigation-section {
-    background-color: aquamarine;
+    background-color: #b6d094;
 }
 
 .menu ul {
@@ -14,7 +14,8 @@
 }
 
 .menu li a {
-    display: block;
+    display: flex;
+    text-align: center;
     text-decoration: none;
     color: white;
     padding: .6em 1em;
