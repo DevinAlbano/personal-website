@@ -18,4 +18,26 @@
     text-decoration: none;
     color: white;
     padding: .6em 1em;
+    transition: all .6s, linear;
+    -webkit-transition: all .6s, linear;
+    -moz-transition: all .6s, linear;
+    -ms-transition: all .6s, linear;
+    -o-transition: all .6s, linear;
 }
+
+.menu li a:hover {
+	background: pink;
+}
+
+/*---------------------------------------------*/
+/* Medium Viewports                            */
+/*---------------------------------------------*/
+
+@media screen and (min-width: 30em) {
+
+    .menu ul {
+        display: flex;
+    }
+}
+
+
