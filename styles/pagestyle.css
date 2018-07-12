@@ -15,6 +15,7 @@ html {
     margin: 0;
 }
 
+
 /* Navigation                                 */
 /* ------------------------------------------ */
 
@@ -29,6 +30,7 @@ html {
 
 .maincontent {
     background-color: #73628a;
+    padding: 1.1rem;
 }
 
 section {
