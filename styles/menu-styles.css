@@ -15,6 +15,7 @@
 
 .menu li a {
     display: flex;
+    justify-content: space-around;
     text-align: center;
     text-decoration: none;
     color: white;
