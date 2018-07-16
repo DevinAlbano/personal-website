@@ -11,11 +11,11 @@
 .menu li {
     border: solid 1px black;
     margin-bottom: 1px;
-    display: flex 1 0 auto;
 }
 
 .menu li a {
-    width: 100%;
+    display: flex;
+    justify-content: flex-start;
     text-align: center;
     text-decoration: none;
     color: white;
