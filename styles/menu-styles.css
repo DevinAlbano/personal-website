@@ -11,11 +11,11 @@
 .menu li {
     border: solid 1px black;
     margin-bottom: 1px;
+    display: flex 1 0 auto;
 }
 
 .menu li a {
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -30,6 +30,8 @@
 .menu li a:hover {
 	background: pink;
 }
+
+
 
 /*---------------------------------------------*/
 /* Medium Viewports                            */
