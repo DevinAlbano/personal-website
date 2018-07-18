@@ -12,6 +12,7 @@
 }
 
 .menu li a {
+    width: 100%;
     text-decoration: none;
     color: white;
     padding: .6em 1em;
@@ -32,8 +33,6 @@
 
 .header-nav li a {
     display: flex;
-    justify-content: flex-start;
-    width: 100%;
 }
 
 .nav-button-subtext {
@@ -47,25 +46,31 @@
     flex: 0 0 1.5em;
 }
 
+.footer-nav.menu a {
+    display: flex;
+    flex-flow: column;
+}
+
 /*---------------------------------------------*/
 /* Medium Viewports                            */
 /*---------------------------------------------*/
 
 
 @media screen and (min-width: 30em) {
-/*
-    .menu ul {
+
+    .footer-nav.menu ul {
         display: flex;
         justify-content: space-between;
     }
 
-    .menu li {
+    .footer-nav.menu li {
         flex: 1 0 auto; 
         text-align: center;
     }
 
-
-*/
+    .footer-nav.menu a {
+        flex-flow: row;
+    }
 
     .header-nav ul {
         display: flex;
